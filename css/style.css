@@ -64,20 +64,20 @@
 	position: absolute;
 	height: 100%;
 	width:100%;
-	background: url('D:/SR-Steel/imgs/slider-1.jpeg');
+	background: url('imgs/slider-1.jpeg');
 	background-size: 100% 100%;
     /* background-repeat: no-repeat; */
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('D:/SR-Steel/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg');
+	background: url('imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url('D:/SR-Steel/imgs/IMG_0071.JPG');
+	background: url('imgs/IMG_0071.JPG');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
