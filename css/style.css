@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Montserrat:wght@300;400;500&display=swap');
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2253b7;
+}
+.landing-content{
+    color: white;
+}
+/* .landing{
+    padding: 2% 3%;
+    color: #fff;
+    padding-bottom: 5%; 
+     position: fixed;
+    z-index: 10;
+  
+} */
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 1% 5%;
+    z-index: 1;
+   
+}
+/* .navbar-brand{
+    margin-left: ;
+} */
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 500;
+    color: #383838;
+}
+.navbar-light .navbar-nav .nav-link .active{
+    color: #199b3e;
+}
+
+#carouselExampleIndicators{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	/* background: rgba(0, 0, 0, 0.45);*/
+    /* background: rgba(0, 0, 0, 0.075); */
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background: url('D:/SR-Steel/imgs/slider-1.jpeg');
+	background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('D:/SR-Steel/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('D:/SR-Steel/imgs/IMG_0071.JPG');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 55%;
+	transform: translateY(-50%);
+    margin-left: 10%;
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: left;
+}
+.info{
+    position: absolute;
+	top: 55%;
+	transform: translateY(-50%);
+    margin-left: 10%;
+	height: auto;
+	width: 90%;
+	z-index: 1;
+	text-align: left;
+}
+.home-content h1{
+    height: auto;
+	color: #fff;
+	width: 50%;
+	z-index: 1;
+	text-align: left;
+	font-size: 5em;
+	font-weight: 750;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h1{
+	height: auto;
+	color: #fff;
+	width: 50%;
+	z-index: 1;
+	text-align: left;
+	font-size: 5em;
+	font-weight: 750;
+    
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+	height: auto;
+	color: #ccc;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    z-index: 11;
+}
+
+
+
+
+
+/* .home-content{
+    padding: 5% 7%;
+    text-align: left;
+} */
+.home-content h1{
+    font-family: 'Inter', sans-serif;
+    /* font-size: 4.2rem; */
+    width: 60%;
+}
+.home-content p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-top: 1%;
+    width: 60%;
+}
+.home-content .home-btn{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 13%;
+    margin-top: 2%;
+    border-radius: 0;
+    border: 3px solid white;
+    z-index: 11;
+}
+.home-btn a{
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+.btn-outline-light:hover{
+    color: #000;
+    background-color: none;
+}
+.home-btn a:hover, .home-btn:hover{
+    color: #000;
+}
+.divider{
+    background-color: #2B5AA3;
+    padding: 2%;
+}
+
+/* ------------------------------------------------------ABOUT US------------------------------------------------------------ */
+.about-us{
+    margin: 5% 0 7%;
+    /* padding: 5% ; */
+    /* background-color: #d0d0d0; */
+}
+.about-us h3{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #005D96;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+}
+.about-img{
+    margin-left: 7%;
+}
+.about-us-content p{
+    /* font-family: 'Inter', sans-serif; */
+    font-size: 1.1rem;
+    width: 80%;
+}
+
+/* ------------------------------------------------------SERVICES OFFERED------------------------------------------------------------ */
+
+.service-offered{
+    /* margin: 5% 0 7%; */
+     padding: 5% 0;
+}
+.service-offered h3{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #005D96;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+}
+.service-offered p{
+    font-size: 1.2rem;
+}
+.service-offered .services-offered-content ul li{
+    margin-left: 5%;
+    line-height: 2;
+    font-size: 1.1rem;
+}
+
+/* ------------------------------------------------------SERVICES OFFERED------------------------------------------------------------ */
+
+.our-history{
+    margin: 5% 0 7%;    
+    /* padding: 5%; */
+    /* background-color: #d0d0d0; */
+}
+
+.our-history p{
+    font-size: 1.2rem;
+}
+.our-history h3{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #005D96;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+}
+.footer{
+    background-color: #005D96;
+    background-image: linear-gradient(70deg, #163c79, #0b5f94,#0b5f94,#163c79);
+    padding: 3%;
+    color: #fff;
+    z-index: 1;
+}
+.contact-content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------PRODUCT LANDING------------------------------------------------------------ */
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000000;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2253b7;
+}
+/* .landing .navbar{
+    position: relative;
+} */
+.our-products a{
+    color: #005D96;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 0.4%;
+    float: right;
+}
+.our-products .col-lg-4 a{
+    /* color: #005D96; */
+    text-decoration: none;
+    /* font-size: 1rem; */
+    margin-top: 0;
+    float: none;
+}
+.our-products h3{
+    color: #005D96;
+    text-align: center;
+}
+.our-products p{
+    font-size: 1.2rem;
+}
+.our-products .title-underline{
+    background-color: #163c79;
+    padding: 5px;
+}
+.slurry-valve-products{
+    margin-bottom: 5%;
+}
+.our-products img{
+    border: 2px solid #163c79;
+    border-radius: 10px;
+}
+/* .slurry-valve-products .row, .col-lg-4{
+    border: 1px solid black;
+} */
+.slurry-valve-products h4{
+    color: #005D96;
+    margin-bottom: 3%;
+    /* text-align: center; */
+}
+.conventional-valve-products{
+    margin-bottom: 5%;
+}
+.conventional-valve-products h4{
+    color: #005D96;
+    margin-bottom: 3%;
+    /* text-align: center; */
+}
+
+/* ---------------------------------------------------------SLURRY VALVES HTML----------------------------------------------- */
+
+.slurry-valve-content p{
+    margin-top: 3%;
+    text-align: center;
+}
+.form-control{
+    background-color: #EFEFEF;
+    border: none;
+    padding: 2%;
+}
+.contact-btn{
+    width: 100%;
+    padding: 2%;
+    background-color: #005D96;
+}
+.contact-btn:hover{
+    background-color: #005D96;
+}
+.our-factory h3{
+    color: #005D96;
+    text-align: center;
+}
+.our-factory .title-underline {
+    background-color: #163c79;
+    padding: 5px;
+}
