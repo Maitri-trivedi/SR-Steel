@@ -17,4 +17,4 @@ jobs:
         server: 162.241.148.36
         username: kluger3j
         password: Kluger@Kopf@007
-        server-dir: https://klugerkopf.com/srsteels/
+        server-dir: /qa.srsteelsindia.com/
