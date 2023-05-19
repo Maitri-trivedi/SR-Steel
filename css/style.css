@@ -64,7 +64,7 @@
 	position: absolute;
 	height: 100%;
 	width:100%;
-	background: url("qa.srsteelsindia.com/imgs/slider-1.jpeg");
+	background: url("http://qa.srsteelsindia.com/imgs/slider-1.jpeg");
     /* background: url("D:/SR-Steel/imgs/slider-1.jpeg"); */
 	background-size: 100% 100%;
     /* background-repeat: no-repeat; */
@@ -72,14 +72,14 @@
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url("qa.srsteelsindia.com/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg");
+	background: url("http://qa.srsteelsindia.com/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg");
     /* background: url("D:/SR-Steel/imgs/slider-2.jpeg"); */
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url("qa.srsteelsindia.com/imgsIMG_0071.JPG");
+	background: url("http://qa.srsteelsindia.com/imgs/IMG_0071.JPG");
     /* background: url("D:/SR-Steel/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg"); */
 	background-size: 100% 100%;
 	background-position: center;
