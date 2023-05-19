@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: 162.241.148.36
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
+        username: kluger3j
+        password: Kluger@Kopf@007
         server-dir: /qa.srsteels.com/
