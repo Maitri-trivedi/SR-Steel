@@ -65,7 +65,8 @@
 	height: 100%;
 	width:100%;
 	background: url("http://qa.srsteelsindia.com/imgs/slider-1.jpeg");
-    /* background: url("D:/SR-Steel/imgs/slider-1.jpeg"); */
+    /* background: url("C:/xampp/htdocs/Demo php files/SR-Steel/imgs/slider-1.jpg"); */
+    background: url("D: /SR Steel/imgs/slider-1.jpeg");
 	background-size: 100% 100%;
     /* background-repeat: no-repeat; */
 	background-position: center;
@@ -73,14 +74,15 @@
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
 	background: url("http://qa.srsteelsindia.com/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg");
-    /* background: url("D:/SR-Steel/imgs/slider-2.jpeg"); */
+
+    background: url("D:/SR-Steel/imgs/slider-2.jpeg");
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
 	background: url("http://qa.srsteelsindia.com/imgs/IMG_0071.JPG");
-    /* background: url("D:/SR-Steel/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg"); */
+    background: url("D:/SR-Steel/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg");
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
@@ -112,7 +114,8 @@
 	width: 50%;
 	z-index: 1;
 	text-align: left;
-	font-size: 5em;
+	/* font-size: 5em; */
+    font-size: 3em;
 	font-weight: 750;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item h1{
@@ -161,18 +164,21 @@
 }
 .home-content .home-btn{
     color: #fff;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
+    font-size: 1.5rem;
     font-weight: 500;
-    width: 13%;
+    width: 18%;
     margin-top: 2%;
     border-radius: 0;
     border: 3px solid white;
+   
     z-index: 11;
 }
 .home-btn a{
     text-decoration: none;
     color: white;
     z-index: 1;
+    
 }
 .btn-outline-light:hover{
     color: #000;
@@ -197,14 +203,17 @@
     font-family: 'Inter', sans-serif;
     color: #005D96;
     margin-bottom: 5%;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 .about-img{
     margin-left: 7%;
 }
 .about-us-content p{
     /* font-family: 'Inter', sans-serif; */
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    /* justify-content: center; */
+    justify-items: center;
+    text-align: justify;
     width: 80%;
 }
 
@@ -258,6 +267,10 @@
 .contact-content a{
     color: #fff;
     text-decoration: none;
+
+}
+.copyright{
+    margin-bottom: 90px;
 }
 
 /* ------------------------------------------------------PRODUCT LANDING------------------------------------------------------------ */
@@ -351,4 +364,41 @@
 .our-factory .title-underline {
     background-color: #163c79;
     padding: 5px;
+}
+
+
+/* Parent Container */
+.content_img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Child Text Container */
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor: pointer;
+}
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
 }
