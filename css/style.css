@@ -53,8 +53,8 @@
 	position: absolute;
 	content: '';
 	/* background: rgba(0, 0, 0, 0.45);*/
-    background: rgba(1, 0, 0, 0.075);
-    background-blend-mode: color-dodge;
+    /* background: rgba(1, 0, 0, 0.075); */
+
 	top: 0;
 	left: 0;
 	height: 100%;
@@ -69,8 +69,11 @@
     /* background: url("C:/xampp/htdocs/Demo php files/SR-Steel/imgs/slider-1.jpg"); */
     /* background: url("D: /SR Steel/imgs/slider-1.jpeg"); */
     /* background: url("D:/SR-Steel/imgs/IMG_0541.jpg"); */
-    background: url("D:/SR-Steel/imgs/IMG_0539.jpg");
+    background: url("http://qa.srsteelsindia.com/imgs/IMG_0539.jpg");
 	background-size: 100% 100%;
+    background-color: #524a4ac8;
+
+    background-blend-mode: multiply;
     /* background-repeat: no-repeat; */
 	background-position: center;
 	background-attachment: fixed;
@@ -78,16 +81,22 @@
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
 	/* background: url("http://qa.srsteelsindia.com/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg"); */
     /* background: url("D:/SR-Steel/imgs/slider-2.jpeg"); */
-    background: url("D:/SR-Steel/imgs/IMG_0539.jpg");
+    background: url("http://qa.srsteelsindia.com/imgs/IMG_0541.jpg");
 	background-size: 100% 100%;
+    background-color: #989898;
+
+    background-blend-mode: multiply;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
 	/* background: url("http://qa.srsteelsindia.com/imgs/IMG_0071.JPG");
     background: url("D:/SR-Steel/imgs/Y-Type-Angle-Valve-for-Slurry-Control.jpg"); */
-    background: url("D:/SR-Steel/imgs/IMG_0542.jpg");
+    background: url("http://qa.srsteelsindia.com/imgs/IMG_0542.jpg");
 	background-size: 100% 100%;
+    background-color: #564e4ee4;
+
+    background-blend-mode: multiply;
 	background-position: center;
 	background-attachment: fixed;
 }
@@ -176,7 +185,7 @@
 .home-content .home-btn{
     color: #fff;
     /* font-size: 1.3rem; */
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
     width: 22%;
     margin-top: 2%;
