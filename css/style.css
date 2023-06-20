@@ -361,6 +361,57 @@
     /* text-align: center; */
 }
 
+/*
+.col-lg-4 {
+    position: relative;
+}
+
+.col-lg-4:hover .overlay {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /*Black see-through comment end kar  
+    color: #f1f1f1;
+    width: 85%;
+    transition: 1s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+*/
+
+.prod-list{
+    font-size: 1.1rem;
+        margin-top: 1.5%;
+        margin-bottom: 5%;
+        /*font-family: 'inherit', sans-serif; */
+     
+    }
+
+.prod-list h4{
+    text-transform: uppercase;
+    color: #005D96;
+    margin-bottom: 3%;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.prod-list ul{
+    font-family: 'inherit', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+
+
 /* ---------------------------------------------------------SLURRY VALVES HTML----------------------------------------------- */
 
 .slurry-valve-content p{
