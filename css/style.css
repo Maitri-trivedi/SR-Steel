@@ -225,9 +225,9 @@
     margin-bottom: 5%;
     font-size: 2.7rem;
 }
-.about-img{
-    /* margin-left: 7%; */
-}
+/* .about-img{
+     margin-left: 7%; 
+} */
 .about-us-content p{
     /* font-family: 'Inter', sans-serif; */
     font-size: 1.2rem;
@@ -409,7 +409,9 @@
     font-size: 1.2rem;
 
 }
-
+.conventional-valve-products .row p{
+    text-align: center;
+}
 
 
 /* ---------------------------------------------------------SLURRY VALVES HTML----------------------------------------------- */
@@ -439,6 +441,9 @@
 .our-factory .title-underline {
     background-color: #163c79;
     padding: 5px;
+}
+.our-factory p{
+    font-size: 1.2rem;
 }
 
 /* ---------------------------------------------------------IMAGE HOVER CSSS---------------------------------------------------------------------- */
