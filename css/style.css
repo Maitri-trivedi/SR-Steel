@@ -226,7 +226,7 @@
     font-size: 2.7rem;
 }
 /* .about-img{
-     margin-left: 7%; 
+     max-width: 75%;
 } */
 .about-us-content p{
     /* font-family: 'Inter', sans-serif; */
@@ -482,6 +482,99 @@
     visibility: visible;
     opacity: 0.7; 
 } */
-
+.prod-list h4 {
+    margin-bottom: 2%;
+}
 
 /* ---------------------------------------------------------IMAGE HOVER CSSS---------------------------------------------------------------------- */
+@media only screen and (max-width: 450px){
+    .home-content .home-btn {
+        font-size: 1rem;
+        width: auto;
+    }
+    .home-content h1 {
+        z-index: 1;
+        text-align: center;
+        font-size: 2rem;
+        width: 100%;
+    }
+    .home-content h3 {
+        text-align: center;
+    }
+    .info {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .about-us h3 {
+        font-size: 2rem;
+    }
+    .about-us-content p {
+        font-size: 1rem;
+        margin-top: 10%;
+        margin-left: 0%;
+        text-align: justify;
+        width: 100%;
+    }
+    .our-history h3 {
+        font-size: 2rem;
+    }
+    .our-history p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .service-offered h3 {
+        font-size: 2rem;
+    }
+    .service-offered p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .our-products h3 {
+        font-size: 2rem;
+        margin-top: 25%;
+    }
+    .prod-list h4 {
+        font-size: 1.2rem;
+    }
+    .prod-list ul {
+        font-size: 1rem;
+    }
+    .prod-list {
+        font-size: 1rem;
+        margin-bottom: 10%;
+    }
+    .prod-list h4 {
+        font-size: 1.1rem;
+        margin-bottom: 7%;
+        text-align: center;
+    }
+    .conventional-valve-products h4 {
+        margin: 5% 0;
+        text-align: center;
+    }
+    .show-more{
+        content-visibility: hidden;
+    }
+    .our-products p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .our-factory h3 {
+        font-size: 2.5rem;
+        margin-top: 25%;
+    }
+    .our-factory p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .manufacture-images .col-lg-4{
+        margin-bottom: 5%;
+    }
+    .contact-us h4{
+        font-size: 1.3rem;
+    }
+    .contact-us .col-lg-6{
+        margin: 5% 0;
+    }
+}
