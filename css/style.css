@@ -560,6 +560,10 @@
         font-size: 1rem;
         text-align: justify;
     }
+    .responsive-slurry-content p{
+        text-align: center;
+        margin-bottom: 5%;
+    }
     .our-factory h3 {
         font-size: 2.5rem;
         margin-top: 25%;
